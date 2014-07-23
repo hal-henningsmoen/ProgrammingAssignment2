@@ -4,11 +4,11 @@
 ## 2) Pass the matrix to makeCacheMatrix to create a cacheMatrix
 ## 3) Pass the cacheMatrix to cacheSolve.   
 ##    the cacheSolve function behaves the same as way as solve() except that it caches the result of the inversion in the 
-##    cacheMatrix. This means it will not have to recalcualte the inverse more than once.  Thios also means it will fail if the
+##    cacheMatrix. This means it will not have to recalcualte the inverse more than once.  This also means it will fail if the
 ##    matrix is not invertible.
 ##   Example usage
 ##   x <- matrix(1:4, 2, 2 )
-##   m <- makeCaceMatrix( m )
+##   m <- makeCacheMatrix( m )
 ##   cacheSolve( m )
 ##        [,1] [,2]
 ##  [1,]   -2  1.5
